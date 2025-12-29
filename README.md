@@ -1,5 +1,5 @@
-Geliştirici
-Bu proje [Adın Soyadın] tarafından geliştirilmiştir.
+#Geliştirici
+Bu proje Cenk Aktaş tarafından geliştirilmiştir.
 
 GitHub: [Cenk Aktaş](https://github.com/Cenkaktas1)
 
@@ -11,7 +11,7 @@ Bu proje, modern web teknolojileri kullanılarak geliştirilmiş, bir E-Ticaret 
 
 Projede **State Management** (Durum Yönetimi) için **Redux Toolkit** kullanılmış olup, componentler arası veri akışı profesyonel bir mimariyle kurgulanmıştır.
 
-![Proje Önizlemesi](./src/images/screenshot_preview.png)
+![Proje Önizlemesi](./src/images/Home.png)
 *(Not: Buraya projenin en güzel ekran görüntüsünü koyabilirsin)*
 
 ## 🚀 Özellikler
@@ -20,7 +20,7 @@ Projede **State Management** (Durum Yönetimi) için **Redux Toolkit** kullanıl
 - **Detaylı Filtreleme:**
   - **Kategori Bazlı:** Seçilen kategoriye göre ürünlerin anlık filtrelenmesi.
   - **Arama Çubuğu:** Ürün ismine göre canlı (live) arama yapabilme.
-- **Ürün Detay Sayfası:** Her ürün için özel oluşturulan dinamik route yapısı (`/product/:id`).
+- **Ürün Detay Sayfası:** Her ürün için özel oluşturulan dinamik route yapısı (`/detail/:id`).
 - **Sepet Yönetimi:**
   - Sepete ürün ekleme.
   - Ürün adedini artırma/azaltma.
@@ -58,10 +58,12 @@ src/
 ├── App.jsx          # Ana yönlendirme (Routing) yapısı
 └── main.jsx         # Uygulamanın giriş noktası
 
-src/images klasörünün içinde ise uygulamanın örnek görselleri bulunmaktadır.
+./src/images/Basket.png
+./src/images/Category.png
+./src/images/Search.png
 
 
-**Kurulum ve Çalıştırma**
+# Kurulum ve Çalıştırma
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
