@@ -1,16 +1,87 @@
-# React + Vite
+Geliştirici
+Bu proje [Adın Soyadın] tarafından geliştirilmiştir.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub: [text](https://github.com/Cenkaktas1)
 
-Currently, two official plugins are available:
+LinkedIn: [text](https://www.linkedin.com/in/cenk-akta%C5%9F-a4ab66362/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🛍️ React & Redux E-Ticaret Uygulaması
 
-## React Compiler
+Bu proje, modern web teknolojileri kullanılarak geliştirilmiş, bir E-Ticaret simülasyonudur. Kullanıcıların ürünleri filtreleyebileceği, detaylarını inceleyebileceği ve sepete ekleyebileceği dinamik bir yapı sunar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Projede **State Management** (Durum Yönetimi) için **Redux Toolkit** kullanılmış olup, componentler arası veri akışı profesyonel bir mimariyle kurgulanmıştır.
 
-## Expanding the ESLint configuration
+![Proje Önizlemesi](./src/images/screenshot_preview.png)
+*(Not: Buraya projenin en güzel ekran görüntüsünü koyabilirsin)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Özellikler
+
+- **Ürün Listeleme:** API'den çekilen ürünlerin dinamik olarak listelenmesi.
+- **Detaylı Filtreleme:**
+  - **Kategori Bazlı:** Seçilen kategoriye göre ürünlerin anlık filtrelenmesi.
+  - **Arama Çubuğu:** Ürün ismine göre canlı (live) arama yapabilme.
+- **Ürün Detay Sayfası:** Her ürün için özel oluşturulan dinamik route yapısı (`/product/:id`).
+- **Sepet Yönetimi:**
+  - Sepete ürün ekleme.
+  - Ürün adedini artırma/azaltma.
+  - Sepetten ürün silme.
+  - Toplam fiyatın anlık hesaplanması.
+- **Loading State:** Veriler yüklenirken kullanıcıya geri bildirim veren yükleme ekranı.
+
+## 🛠️ Kullanılan Teknolojiler
+
+Bu projede aşağıdaki kütüphaneler ve teknolojiler kullanılmıştır:
+
+| Teknoloji | Açıklama |
+| --- | --- |
+| **React.js** | Kullanıcı arayüzü oluşturmak için. |
+| **Redux Toolkit** | Global State yönetimi (Sepet ve Ürün verileri için). |
+| **React Router DOM** | Sayfalar arası geçiş (Routing) için. |
+| **Axios** | API isteklerini (HTTP Requests) yönetmek için. |
+| **React Icons** | Modern ikon setleri için. |
+| **Material UI (MUI)** | Badge (Sepet sayısı) gibi UI bileşenleri için. |
+| **CSS3** | Özel stillendirme ve Flexbox yapısı için. |
+
+## 📂 Proje Yapısı (Mimari)
+
+Proje, sürdürülebilirlik ve okunabilirlik açısından modüler bir yapıda geliştirilmiştir:
+
+```text
+src/
+├── components/      # Tekrar kullanılabilir bileşenler (Product, Header, Loading vb.)
+├── css/             # Sayfa ve bileşenlere özel stil dosyaları
+├── redux/           # Redux Slice ve Store yapılandırması
+│   ├── store.js     # Ana depo
+│   ├── basketSlice.js
+│   └── productSlice.js
+├── pages/           # Ana sayfalar (Home, Detail, Basket)
+├── App.jsx          # Ana yönlendirme (Routing) yapısı
+└── main.jsx         # Uygulamanın giriş noktası
+
+src/images klasörünün içinde ise uygulamanın örnek görselleri bulunmaktadır.
+
+
+**Kurulum ve Çalıştırma**
+
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+Projeyi Klonlayın:
+
+Bash
+
+git clone [https://github.com/KULLANICI_ADIN/react-ecommerce-app.git](https://github.com/KULLANICI_ADIN/react-ecommerce-app.git)
+Proje Dizinine Girin:
+
+Bash
+
+cd react-ecommerce-app
+Gerekli Paketleri Yükleyin:
+
+Bash
+
+npm install
+Uygulamayı Başlatın:
+
+Bash
+
+npm run dev
