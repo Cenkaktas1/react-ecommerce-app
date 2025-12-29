@@ -12,7 +12,10 @@ Bu proje, modern web teknolojileri kullanılarak geliştirilmiş, bir E-Ticaret 
 Projede **State Management** (Durum Yönetimi) için **Redux Toolkit** kullanılmış olup, componentler arası veri akışı profesyonel bir mimariyle kurgulanmıştır.
 
 ![Proje Önizlemesi](./src/images/Home.png)
-*(Not: Buraya projenin en güzel ekran görüntüsünü koyabilirsin)*
+![Proje Önizlemesi](./src/images/Basket.png)
+![Proje Önizlemesi](./src/images/Category.png)
+![Proje Önizlemesi](./src/images/Searching.png)
+
 
 ## 🚀 Özellikler
 
@@ -57,10 +60,6 @@ src/
 ├── pages/           # Ana sayfalar (Home, Detail, Basket)
 ├── App.jsx          # Ana yönlendirme (Routing) yapısı
 └── main.jsx         # Uygulamanın giriş noktası
-
-./src/images/Basket.png
-./src/images/Category.png
-./src/images/Search.png
 
 
 # Kurulum ve Çalıştırma
