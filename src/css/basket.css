@@ -1,0 +1,78 @@
+.basket-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 20px auto;
+    max-height: 300px;
+    color: white;
+}
+
+.basket-product-card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    border-radius: 20px;
+    box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+}
+
+.flex-space-between h5 {
+    font-size: 16px;
+}
+
+.basket-page {
+    width: 900px;
+    margin: 60px auto;
+}
+
+.FiyatBilgisi {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.Odeme {
+    background-color: #d93d3dff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.Odeme:hover {
+    background-color: #b83131ff;
+}
+
+.Close {
+    color: red;
+    cursor: pointer;
+    flex-shrink: 0;
+    min-width: 10px;
+    font-size: 28px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    position: absolute;
+    float: right;
+    right: 10px;
+}
+
+.Close:hover,
+.basket-product-card:hover .Close {
+    opacity: 1;
+}
+
+.circle-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+    

@@ -1,0 +1,88 @@
+.product-detail {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 90px;
+    width: 980px;
+}
+
+.star {
+    color: gold;
+    font-size: 18px;
+    margin: 0 5px 0 5px;
+}
+
+.grey {
+    color: rgb(119, 119, 119);
+}
+
+.Price {
+    color: #d93d3dff;
+    font-size: 25px;
+}
+
+.button-group {
+    margin-top: 60px;
+}
+
+.SepeteEkle {
+    background-color: #0003c0ff;
+    color: white;
+    border: 1px solid #0003c0ff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.GeriDon {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.SepeteEkle:hover {
+    background-color: #000080ff;
+}
+
+.GeriDon:hover {
+    background-color: #999;
+    color: white;
+}
+
+.quantity-box {
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+    color: #d93d3dff;
+    transition: color 0.3s ease;
+    margin: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.circle-icon:hover {
+    color: white;
+    background-color: #d93d3dff;
+}
+.quantity {
+    font-size: 20px;
+    margin: 2px;
+}

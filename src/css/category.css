@@ -1,0 +1,27 @@
+.category-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    margin: 30px 0 10px 0;
+    justify-content: center;
+}
+
+.category-item {
+    background-color: #d93d3dff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.category-item:hover {
+    background-color: #a83030ff;
+    transform: scale(1.05)
+}
+
+.active {
+    background-color: #a83030ff;
+}
