@@ -1,9 +1,9 @@
 Geliştirici
 Bu proje [Adın Soyadın] tarafından geliştirilmiştir.
 
-GitHub: [text](https://github.com/Cenkaktas1)
+GitHub: [Cenk Aktaş](https://github.com/Cenkaktas1)
 
-LinkedIn: [text](https://www.linkedin.com/in/cenk-akta%C5%9F-a4ab66362/)
+LinkedIn: [Cenk Aktaş](https://www.linkedin.com/in/cenk-akta%C5%9F-a4ab66362/)
 
 # 🛍️ React & Redux E-Ticaret Uygulaması
 
